@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    /* background-color: rgb(220 220 220); */
+}
+/* ------ header ------ */
+.nav-links{
+    flex: 1;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    height: 100px;
+    display: inline-block;
+    /* background-color: white; */
+    padding-left: 55%;
+    position: relative;
+}
+.nav-links ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-links ul li a{
+    display: inline-block;
+    color: black;
+    /* background-color: white; */
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+.nav-links ul li a:hover,
+.nav-links ul li .active{
+    text-decoration: underline;
+    color: grey;
+}
+.header{
+    display: block;
+    height: 65vh;
+    width: 100%;
+    background-image: url('./foodSite images/cover copy.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header .header-text{
+    text-align: center;
+}
+.header .header-text h1{
+    
+    font-size: 70px;
+    color: green;
+    /* margin: 150px 0 0 200px; */
+}
+.nav .fa{
+    display: none;
+}
+
+
+/* ------- facility ------- */
+
+.facility{
+    /* border: 3px solid black; */
+    /* background-color: rgb(220 220 220); */
+    width: 80%;
+    margin: 50px auto 70px auto;
+    height: 85vh;
+}
+.facility .fac-col{
+    display: flex;
+    justify-content: space-between;
+}
+.facility .fac-col .col{
+    /* border: 2px solid red; */
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    padding: 4px;
+    height: 600px;
+    width: 600%;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+.facility .fac-col .row{
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    /* flex-direction: column; */
+
+}
+.facility .fac-col .row h4{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: green;
+    background-color: rgb(197, 197, 197);
+}
+#fac-col-h1{
+    font-family: 'Waterfall', cursive;
+    margin-top: -30px;
+    padding: 0 0 20px 0;
+    font-size: 50px;
+    color: red;
+}
+#fac-col-h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.col #fac-pera{
+     
+    padding: 10px 15px;
+}
+.hero_btn{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.col .btn{
+    width: 115px;
+    margin: 20px auto;
+    background-color: red;
+    border-radius: 6px;
+    padding: 4px;
+}
+.facility .row .row-col{
+    /* border: 2px solid green; */
+    flex-basis: 40%;
+    margin: 20px 4px 20px 40px;
+    /* padding: 16px; */
+    
+}
+.facility .row .row-col .img1{
+    background-image: url("./foodSite images/pexels-lisa-1279330.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* margin: -50px 0 0 0 ; */
+    height: 98%;
+    
+}
+
+
+
+.facility .row .row-col img{
+    width: 100%;
+}
+
+ 
+
+
+/*------ message section ------*/
+
+.message{
+    background-image: url('./foodSite images/message.jpg');
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    position: center;
+    margin-top: 0;
+}
+.message .form-box{
+    background-color: rgba(0, 0, 0, 0.2);
+    /* border: 2px solid blue; */
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+}
+/* .message .form{
+    width: 80%; 
+} */
+.message .form h2{
+    font-size: 40px;
+    font-family: 'Waterfall';
+    padding-top: 50px;
+    margin-bottom: 10px;
+    color: red;
+}
+.message .form p{
+    margin-bottom: 30px;
+    color: green;
+}
+.message .form-box .form .form-desgin {
+    padding: 8px;
+    
+}
+.message .form-box .form .form-desgin input{
+    border-radius: 2px;
+    width: 80%;
+    padding: 10px;
+}
+.message .form-box .form .submit-btn{
+    margin-top: 10px;
+    margin-left: 59%;
+    margin-bottom: 20px;
+}
+.message .form-box .form .submit-btn input{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.message .form-box .form .submit-btn :hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(54, 54, 54);
+}
+
+
+/*------ Menu Section ------*/
+
+.our-menu{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    /* height: 60vh; */
+}
+h1{
+    font-family: 'Waterfall', cursive;
+    margin-top: 0px;
+    padding-top: 60px;
+    font-size: 60px;
+    color: red;
+}
+#subheading-page{
+    color: green;
+    padding: 10px;    
+}
+.menu-row{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+h4{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(197, 197, 197);
+}
+.our-menu .menu-row .menu-image{
+    margin: 0px 10px 0px 10px;
+    /* margin-top: 40px; */
+    padding-top: 20px ;
+}
+.menu-row img{
+    width: 100%;
+}
+
+
+/*------Customer Section ------*/
+
+.customer{
+    background: url('./foodSite images/pexels-chan-walrus-958545.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    text-align: center;
+    margin-top: 100px;
+    
+    
+}
+.customer-say{
+    width: 70%;
+    margin: 0 auto;
+}
+.customer-say{
+    color: white;
+}
+.customer .customer-say h3{
+    margin-bottom: 50px;
+    color: white;
+}
+.customer-say #customer-pera{
+    margin-top: 120px;
+    padding: 0 50px;
+}
+.customer-img{
+    width: 130px;
+    height: 130px; 
+    margin: 50px auto 0px auto;  
+}
+.customer-img img{
+    width: 100%;
+    height: 96%;
+    border-radius: 50%;
+}
+
+
+/*------Gallery Section ------*/
+
+.gallery{
+    width: 80%;
+    height: 100vh;
+    margin: 0px auto;
+    /* border: 2px solid brown; */
+    text-align: center;
+
+}
+.gallery .gallery-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.gallery .gallery-row .gallery-image{
+    flex-basis: 31%;
+    margin: 20px 0 0 0;
+}
+.gallery .gallery-row img{
+    width: 100%;
+    
+}
+
+
+/*------ Footer Section ------*/
+
+.footer{
+    width: 100%;
+    color: white;
+    background-color: rgb(87, 86, 86);
+    background-image: url('./foodSite images/footer-lines-tall.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 45vh;
+    /* border: 2px solid yellow; */
+    margin-top: 100px;
+}
+.footer .footer-text{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    width: 80%;
+    height: 32vh;
+    margin: 30px auto ;
+    
+}
+.footer .footer-text .footer-text-1{
+    justify-content: space-between;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin: 40px 20px 20px 20px;
+    padding: 0 20px;
+}
+.footer .footer-text .footer-text-1 h5{
+    font-size: 18px;
+    
+}
+.footer .footer-text .footer-text-1 span{
+    color: rgb(173, 171, 171);
+}
+.footer .footer-text .footer-text-1 a i{
+    font-size: 20px;
+    margin-top: 18px;
+    color: white;
+    
+    /* margin: 0 20px; */
+}
+.footer .last-bottom p{
+    text-align: center; 
+    color: rgb(187, 183, 183); 
+    margin-top: 55px;
+}
+
+
+/* .footer .last-bottom{
+    text-align: center;
+    margin: 0px auto;
+} */
+/* .footer .footer-box{
+    border: 2px solid red;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+
+} */
+
+
+
+
+
+/* @media(max-width: 700px){
+    .nav-links ul li a{
+        font-size: 14px;
+        padding: 15px;
+        margin: 12px;
+    }
+    .nav-links{
+        position: absolute;
+        background: grey;
+        height: 100%;
+        width: 200px;
+        top: 10px;
+        right: -200px;
+        text-align: left;
+        transition: 1s;
+        z-index: 2;
+    }
+
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        padding: 12px;
+        cursor: pointer;
+    }
+} */
+
+
+
+
+
+
+
